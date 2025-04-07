@@ -1,0 +1,14 @@
+streamlit>=1.30.0
+transformers>=4.35.0
+torch>=2.0.0
+tensorflow>=2.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+protobuf>=3.20.0
+sentencepiece>=0.1.99
+accelerate>=0.25.0
+huggingface-hub>=0.19.0
+# Paramètres pour huggingface-hub
+HF_HUB_ENABLE_HF_TRANSFER=1
+HF_TRANSFER_DISABLE_PROGRESS_BARS=1
+HF_HUB_OFFLINE=1
